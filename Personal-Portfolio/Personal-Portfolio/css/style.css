@@ -1,0 +1,100 @@
+.navbar {
+  background: #be3144;
+  display: flex;
+  position: fixed;
+  width: 100%;
+  box-shadow: 0 2px 0 #0006;
+}
+
+.navbar-nav {
+  display: flex;
+  margin-right: 40px;
+  font-size: 24px;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #fff;
+}
+
+.himimic {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #3a3d40;
+  color: #fff;
+}
+
+.together {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40rem;
+  background-color: #3a3d40;
+  color: #fff;
+}
+
+footer {
+  font-weight: 300;
+  display: flex;
+  background: #303841;
+  border-top: 4px solid #be3144;
+  padding: 2rem;
+  justify-content: space-evenly;
+}
+
+.footer-text {
+  color: #fff;
+}
+
+.myprojects {
+  background: #45567d;
+  text-align: center;
+  box-sizing: inherit;
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
+.developer {
+  font-style: italic;
+  color: #be3144;
+  font-size: 20px;
+}
+
+.mimic {
+  font-size: 50px;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 4rem;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-bottom: 6rem;
+}
+
+.card {
+  width: 25rem;
+  height: 18rem;
+}
+
+.show-all {
+  background-color: #303841;
+}
+
+.contact-now {
+  color: #fff;
+}
